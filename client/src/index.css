@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,600;1,200;1,500&family=Source+Sans+Pro:wght@300&display=swap');
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: azure;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bs1{
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.spinner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 9999
+}
+h1{
+  font-size: 30px;
+  font-weight: bold;
+  color: orangered;
+}
+p{
+  margin: 5px !important;
+  padding: 0;
+}
+.btn1{
+  box-shadow: none !important;
+  background-color: white !important;
+  color: orangered !important;
+  border: 1px solid orangered !important;
+  padding: 5px 15px !important;
+  outline: none !important  ;
+}
+.bt1 :focus {
+  border: none;
+}
+button{
+  padding: 3px 10px !important;
+}
+.header{
+  padding: 10px;
+}
+.header .ant-btn{
+  box-shadow: none !important;
+  background-color: white !important;
+  color: orangered !important;
+  border: 1px solid orangered !important;
+  padding: 5px 15px !important;
+  outline: none;
+}
+.content{
+  min-height: 90vh;
+}
+.room{
+  border-radius: 5px;
+  margin-top: 100px;
+  height: 160px;
+  transition: 0.3s;
+}
+.room:hover{
+  height :220px;
+}
+.room:hover > .room-content{
+
+  opacity: 1;
+  transform: translateY(-40px);
+}
+.roomimg{
+  height: 180px;
+  width: auto;
+  border-radius: 5px;
+  transform: translateY(-50px);
+}
+.room-content{
+  transform: translateY(-200px);
+  opacity: 0;
+  transition: 0.3s;
+}
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fixed-image {
+  width: 260px; /* Establece el ancho deseado para las imágenes */
+  height: 160px; /* Establece la altura deseada para las imágenes */
+  object-fit: cover; /* Ajusta la imagen para que cubra el contenedor */
+}
+.login{
+  background-color: black;
+  min-height: 100vh;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+.login label , .login h1{
+  color: gold !important;
+  opacity: 0.6;
+}
+.login-form{
+  background-color: #1f1f1f;
+}
+.login-form input {
+  background-color: #333 !important;
+  border: none !important;
+  color: white;
+  opacity: 0.5;
+}
+.login-logo{
+  position: absolute;
+  left: 6cm;
+  right: 0;
+  top: 15%;
+  bottom: 50%;
+  transform: translateY(-50%,-50%);
+  font-size: 45px;
+  opacity: 0.5 !important;
+}
+
+.login a{ 
+  color: white !important;
+  opacity: 0.5;
+}
+.roomimg2{
+  width: 600px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+
+}
+
+.ABC:hover {
+  text-decoration: none;
+}
+
+svg{
+  height: 20px !important;
+width: 20px !important;
+}
+a{
+  color: orangered !important;
+}
+.rating-container input {
+  width: 50px;
+  height: 30px;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.rating-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.rating-container button:hover {
+  background-color: #0056b3;
+}
+.rating-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px; /* Ajusta la altura según tus necesidades */
+}
+
+.rating-input input {
+  margin-bottom: 10px;
+}
